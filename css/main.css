@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --body-bg-color: #00ff1ec9;
+    --teaxt-color: rgb(195, 255, 0);
+}
+html {
+    height: 100%;
+}
+body {
+    /* height: 100%; */
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--body-bg-color);
+}
+div {
+    gap: 2rem;
+    display: flex;
+    width: auto;
+    align-items: center;
+    top: 1rem;
+    left: 1rem;
+}
+.h1 {
+
+}
+h1 {
+    font-size: 5rem;
+    color: var(--teaxt-color);
+}
+h1:nth-child(2){
+ margin-right: 2rem;   
+}
+h1:nth-child(4){
+ margin-right: 2rem;   
+}
+h1:nth-child(10){
+ margin-right: 2rem;   
+}
+img {
+    width: 130px;
+    animation: anim1 1.3s both;
+    animation-duration: 11s;
+}
+h1:nth-child(1) {
+    animation: anim1 1.3s both;
+}
+h1:nth-child(2) {
+    animation: anim1 1.3s both;
+    animation-duration: 2s;
+}
+h1:nth-child(3) {
+    animation: anim1 1.3s both;
+    animation-duration: 3s;
+}
+h1:nth-child(4) {
+    animation: anim1 1.3s both;
+    animation-duration: 4s;
+}
+h1:nth-child(5) {
+    animation: anim1 1.3s both;
+    animation-duration: 5s;
+}
+h1:nth-child(6) {
+    animation: anim1 1.3s both;
+    animation-duration: 6s;
+}
+h1:nth-child(7) {
+    animation: anim1 1.3s both;
+    animation-duration: 7s;
+}
+h1:nth-child(8) {
+    animation: anim1 1.3s both;
+    animation-duration: 8s;
+}
+h1:nth-child(9) {
+    animation: anim1 1.3s both;
+    animation-duration: 9s;
+}
+h1:nth-child(10) {
+    animation: anim1 1.3s forwards;
+    animation-duration: 10s;
+}
+
+@keyframes anim1 {
+    from {
+        transform: translate(0rem);
+    }
+    to {
+        transform: translateY(15rem);
+    }
+    
+}

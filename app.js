@@ -1,5 +1,5 @@
 
-var properti = {
+    var properti = {
   gosh: 0,
   guruch: 0,
   sabzi: 0,
